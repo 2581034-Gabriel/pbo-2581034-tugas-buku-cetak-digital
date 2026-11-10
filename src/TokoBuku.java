@@ -1,5 +1,9 @@
 public class TokoBuku {
     public static void main(String[] args) {
+        //java: constructor Buku in class Buku cannot be applied to given types;
+        //  required: java.lang.String,java.lang.String,int
+        //  found:    no arguments
+        //  reason: actual and formal argument lists differ in length
         Buku[] keranjang = {
                 new BukuCetak("Pemrograman Java", "John Doe", 120000, 750),
                 new BukuCetak("Algoritma Dasar", "Jane Smith", 95000, 400),
